@@ -1,0 +1,6 @@
+version: '3'
+services:
+    compilerbook:
+        volumes:
+            - '$HOME/dev/9cc:/9cc'
+        image: compilerbook-m1:1.0
