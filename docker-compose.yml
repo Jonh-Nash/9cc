@@ -3,4 +3,6 @@ services:
     compilerbook:
         volumes:
             - '$HOME/dev/9cc:/9cc'
-        image: compilerbook-m1:1.0
+        build:
+            context: .
+            dockerfile: Dockerfile
