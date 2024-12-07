@@ -1,6 +1,7 @@
 version: '3'
 services:
     compilerbook:
+        platform: linux/amd64
         volumes:
             - '$HOME/dev/9cc:/9cc'
         build:
